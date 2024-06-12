@@ -64,7 +64,7 @@ cricket score <MatchID> --details
 - Access via `NPX`
 
 ```sh
-npx cricket-data "cricket score <MatchID>"
+npx cricket-data score <MatchID> or npx cricket-data score --help
 ```
 
 - install via `NPM` and `PNPM`
