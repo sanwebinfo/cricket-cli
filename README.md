@@ -46,7 +46,7 @@ npm link or pnpm link --global
 - unlink CLI
 
 ```sh
-npm rm --global cricket-cli or pnpm uninstall --global cricket-cli
+npm rm --global cricketscore or pnpm uninstall --global cricketscore
 ```
 
 - Access CLI Globally
@@ -64,7 +64,7 @@ cricket score <MatchID> --details
 - Access via `NPX`
 
 ```sh
-npx cricket-cli "cricket score <MatchID>"
+npx cricketscore "cricket score <MatchID>"
 ```
 
 - install via `NPM` and `PNPM`
@@ -72,20 +72,20 @@ npx cricket-cli "cricket score <MatchID>"
 ```sh
 
 ## install via npm
-npm install -g cricket-cli
+npm install -g cricketscore
 
 ## Remove Package
-npm uninstall -g cricket-cli
+npm uninstall -g cricketscore
 
 
 ## install via pnpm
-pnpm install -g cricket-cli
+pnpm install -g cricketscore
 
 ## update package
-pnpm update -g cricket-cli
+pnpm update -g cricketscore
 
 ## Remove Package
-pnpm uninstall -g cricket-cli
+pnpm uninstall -g cricketscore
 
 ```
 
