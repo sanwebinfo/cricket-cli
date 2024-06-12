@@ -1,5 +1,5 @@
 {
-  "name": "cricketscore",
+  "name": "cricket-data",
   "version": "1.0.2",
   "description": "Get Live Cricket Score Update on Terminal and CMD.",
   "main": "./dist/cli.js",
