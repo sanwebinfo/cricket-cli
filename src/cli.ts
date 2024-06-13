@@ -40,11 +40,10 @@ const argv = yargs(hideBin(process.argv))
 
       const data = await fetchMatchData(argv.matchId);
 
-      console.log(`\n➡ Match: ${data.title} \n`);
+      console.log(`\n🏏 Match: ${data.title} \n`);
       console.log(`🔴 Livescore: ${data.livescore}\n`);
-      console.log(`➡ Status: ${data.update}`);
-      console.log(`➡ Run Rate: ${data.runrate} \n`);
-      console.log(`📅 Match Date: ${data.match_date} \n`);
+      console.log(`✅ Status: ${data.update}\n`);
+      console.log(`📊 Run Rate: ${data.runrate} \n`);
 
       if (argv.details) {
         console.log('🥎 Current Batsmen: \n');
@@ -55,6 +54,7 @@ const argv = yargs(hideBin(process.argv))
         data.current_bowler.forEach((bowler, index) => {
           console.log(`${index + 1}. ${bowler.name} - ${bowler.overs} overs, ${bowler.runs} runs, ${bowler.wickets} wickets \n`);
         });
+        console.log(`📅 Match Date: ${data.match_date} \n`);
       }
     } catch (error) {
       if (error instanceof Error) {
