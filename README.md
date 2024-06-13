@@ -2,14 +2,14 @@
 
 ![build-test](https://github.com/sanwebinfo/cricket-cli/workflows/build-test/badge.svg)  ![npm](https://github.com/sanwebinfo/cricket-cli/workflows/npm/badge.svg)  
 
-Get Live Cricket Score Update on Your Terminal.  
+Get Live Cricket Score Update on Your Terminal and CMD.  
 
 ## Built using
 
 - Typescript
 - Axios
 - Yargs - <https://yargs.js.org/>
-- `Yaml` Read the API URL  
+- `Yaml` - Read the API URL  
 
 ## Setup
 
@@ -30,13 +30,13 @@ pnpm build
 
 ```
 
-- Create `cricket.yml` file and add your Cricket API URL
+- Create `cricket.yml` file on your **`HOME`** Directory to add Cricket API URL
 
 ```yml
 BASE_URL: 'https://cricket.example.com/score
 ```
 
-- Get Cricket API : <https://github.com/sanwebinfo/cricket-score/tree/main/data>
+- **Get Cricket API : <https://github.com/sanwebinfo/cricket-score/tree/main/data>**
 - Link and Test the CLI Locally
 
 ```sh
@@ -97,6 +97,17 @@ pnpm uninstall -g cricket-data
 npx clear-npx-cache
 pnpm store prune
 ```
+
+## Contributing 🙌
+
+Your PR's are Welcome  
+
+## Disclaimer 🗃
+
+- This is not an Offical API from Cricbuzz - it's an Unofficial API
+- This is for Education Purpose only - use at your own risk on Production Site
+
+All Credits Goes to <https://www.cricbuzz.com/>  
 
 ## LICENSE
 
