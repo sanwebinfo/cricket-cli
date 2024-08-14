@@ -6,7 +6,7 @@ settings:
 
 dependencies:
   axios:
-    specifier: ^1.7.3
+    specifier: ^1.7.4
     version: 1.7.4
   yaml:
     specifier: ^2.5.0
