@@ -2,7 +2,7 @@
 
 ![build-test](https://github.com/sanwebinfo/cricket-cli/workflows/build-test/badge.svg)  ![npm](https://github.com/sanwebinfo/cricket-cli/workflows/npm/badge.svg)  
 
-Get Live Cricket Score Update on Your Terminal and CMD.  
+Get Live Cricket Score Update on Your Terminal, CMD and Termux.  
 
 ## Built using
 
