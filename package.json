@@ -38,7 +38,7 @@
   "homepage": "https://github.com/sanwebinfo/cricket-cli",
   "dependencies": {
     "axios": "^1.13.2",
-    "yaml": "^2.8.1",
+    "yaml": "^2.8.2",
     "yargs": "^17.7.2"
   },
   "devDependencies": {
